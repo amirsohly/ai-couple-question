@@ -10,7 +10,7 @@ export default function App() {
   async function getQuestion() {
 
   const res = await fetch(
-    `https://subsidiary-francisco-schemes-someone.trycloudflare.com/question?level=${level}`
+    `https://ai-couple-question.onrender.com/question?level=${level}`
   )
 
   const data = await res.json()
