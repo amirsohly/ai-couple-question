@@ -4,7 +4,7 @@ export default function App() {
 
   const [level, setLevel] = useState("intimate");
   const [question, setQuestion] = useState(
-    "Level رو انتخاب کن و دکمه رو بزن"
+    "Select the LEVEL and TAP"
   );
 
   async function getQuestion() {
